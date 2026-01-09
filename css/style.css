@@ -1,0 +1,58 @@
+*, :root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+html, body {
+    overscroll-behavior-y: none;
+    scroll-behavior: smooth;
+    max-width: 1600px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #fff;
+    padding: 0.8rem 6rem;
+}
+
+.logo img {
+    width: 7rem;
+}
+
+nav ul {
+    list-style-type: none;
+    gap: 2.5rem;
+}
+
+nav ul li a {
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #000;
+}
+
+header button {
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #469165;
+    background-color: #469165;
+    color: #fff;
+}
+
+header button a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
