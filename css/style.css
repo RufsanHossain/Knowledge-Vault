@@ -8,8 +8,6 @@
 html, body {
     overscroll-behavior-y: none;
     scroll-behavior: smooth;
-    max-width: 1600px;
-    margin: auto;
     font-family: 'Inter', sans-serif;
 }
 
@@ -17,15 +15,23 @@ a {
     text-decoration: none;
 }
 
-header, nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container {
+    max-width: 1600px;
+    margin: auto;
 }
+
+/* Header */
 
 header {
     background-color: #fff;
     padding: 0.8rem 6rem;
+    width: 100%;
+}
+
+header .container, nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo img {
@@ -48,6 +54,12 @@ header button {
     border: 1px solid #469165;
     background-color: #469165;
     color: #fff;
+    border-radius: 0.4em;
+}
+
+header button:hover {
+    background-color: #000;
+    cursor: pointer;
 }
 
 header button a {
@@ -56,3 +68,4 @@ header button a {
     font-size: 0.8rem;
     text-transform: capitalize;
 }
+
