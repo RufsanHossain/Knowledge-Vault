@@ -1,3 +1,7 @@
+/* =========================
+   Base Reset & Typography
+========================= */
+
 *, :root {
     margin: 0;
     padding: 0;
@@ -52,6 +56,10 @@ h4 {
     color: #fff;
 }
 
+/* =========================
+   Utilities
+========================= */
+
 .container {
     max-width: 1600px;
     margin: auto;
@@ -77,6 +85,10 @@ ul li {
     gap: 0.3rem;
 }
 
+/* =========================
+   Buttons
+========================= */
+
 button {
     padding: 0.6rem 0.8rem;
     border: 1px solid #469165;
@@ -90,7 +102,9 @@ button:hover {
     border-color: #000;
 }
 
-/* Header */
+/* =========================
+   Header
+========================= */
 
 header {
     background-color: #fff;
@@ -140,7 +154,9 @@ header button a {
     text-transform: capitalize;
 }
 
-/* Hero */
+/* =========================
+   Hero
+========================= */
 
 main .hero {
     min-height: 33.7rem;
@@ -224,7 +240,9 @@ main .hero .button a img {
     height: 1rem;
 }
 
-/* Problems */
+/* =========================
+   Problems
+========================= */
 
 main .problems-container {
     padding: 4rem 6rem;
@@ -282,7 +300,9 @@ main .problems-container .problems .box p {
     text-align: center;
 }
 
-/* Solutions */
+/* =========================
+   Solutions
+========================= */
 
 main .solutions-container {
     padding: 4rem 6rem;
@@ -344,8 +364,9 @@ main .solutions-container .solutions .content ul li p {
     font-size: 0.8rem;
 }
 
-
-/* CTA */
+/* =========================
+   CTA
+========================= */
 
 main .cta-container {
     padding: 4rem 6rem;
@@ -397,7 +418,9 @@ main .cta button a {
     font-weight: 600;
 }
 
-/* Footer */
+/* =========================
+   Footer
+========================= */
 
 footer {
     background-color: #001931;
@@ -410,7 +433,7 @@ footer .container {
     gap: 4rem;
 }
 
-footer .container div {
+footer .container > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -420,6 +443,7 @@ footer .social {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
+    align-items: start;
 }
 
 footer .social ul {
