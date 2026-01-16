@@ -69,6 +69,19 @@ ul li {
     gap: 0.3rem;
 }
 
+button {
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #469165;
+    background-color: #469165;
+    color: #fff;
+    border-radius: 0.4rem;
+}
+
+button:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
 /* Header */
 
 header {
@@ -323,3 +336,55 @@ main .solutions-container .solutions .content ul li p {
     font-size: 0.8rem;
 }
 
+
+/* CTA */
+
+main .cta-container {
+    padding: 4rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .cta-container .cta {
+    width: 68rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F6F2;
+    padding: 4rem 2rem;
+    border-radius: 0.6rem;
+    gap: 1.2rem;
+}
+
+main .cta .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+main .cta p {
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    color: #627382;
+    text-align: center;
+    width: 28rem;
+}
+
+main .cta .button {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+main .cta button a {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
