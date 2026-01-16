@@ -9,6 +9,7 @@ html, body {
     overscroll-behavior-y: none;
     scroll-behavior: smooth;
     font-family: 'Inter', sans-serif;
+    overscroll-behavior: none;
 }
 
 a {
@@ -42,6 +43,13 @@ h3 {
     text-transform: capitalize;
     font-family: "Inter", sans-serif;
     text-align: center;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: #fff;
 }
 
 .container {
@@ -387,4 +395,51 @@ main .cta button a {
     color: #fff;
     font-size: 0.8rem;
     font-weight: 600;
+}
+
+/* Footer */
+
+footer {
+    background-color: #001931;
+}
+
+footer .container {
+    padding: 6rem 6rem 1.5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+footer .container div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+footer .social ul {
+    display: flex;
+    gap: 0.8rem;
+}
+
+footer .social ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social ul li img {
+    width: 1rem;
+    height: 1rem;
+}
+
+footer .container .copyright p {
+    text-align: center;
+    color: #fff;
+    margin: auto;
 }
