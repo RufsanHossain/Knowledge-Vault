@@ -438,8 +438,14 @@ footer .social ul li img {
     height: 1rem;
 }
 
+footer .container .copyright {
+    border-top: 1px solid #E5E7EB33;
+    padding-top: 1rem;
+}
+
 footer .container .copyright p {
     text-align: center;
     color: #fff;
     margin: auto;
+    font-size: 0.8rem;
 }
