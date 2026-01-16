@@ -27,6 +27,15 @@ h1 span {
     display: block;
 }
 
+h2 {
+    color: #001931;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
 h3 {
     font-size: 1.2rem;
     font-weight: 600;
@@ -44,6 +53,20 @@ h3 {
     background-color: #fff;
     padding: 0.4rem 0.6rem;
     border-radius: 50rem;
+}
+
+.subtitle {
+    color: #469165;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+    gap: 0.3rem;
 }
 
 /* Header */
@@ -95,6 +118,8 @@ header button a {
     font-size: 0.8rem;
     text-transform: capitalize;
 }
+
+/* Hero */
 
 main .hero {
     min-height: 33.7rem;
@@ -178,8 +203,10 @@ main .hero .button a img {
     height: 1rem;
 }
 
+/* Problems */
+
 main .problems-container {
-    padding: 4rem;
+    padding: 4rem 6rem;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -189,16 +216,6 @@ main .problems-container .title {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-}
-
-main .problems-container .title h2 {
-    color: #001931;
-    text-transform: capitalize;
-    font-weight: 700;
-    font-family: "Inter", sans-serif;
-    font-size: 2.4rem;
-    text-align: center;
-
 }
 
 main .problems-container .title p {
@@ -243,3 +260,66 @@ main .problems-container .problems .box p {
     line-height: 1rem;
     text-align: center;
 }
+
+/* Solutions */
+
+main .solutions-container {
+    padding: 4rem 6rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+main .solutions-container .solutions {
+    width: 68rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+main .solutions-container .solutions > div {
+    width: 30rem;
+    height: 30rem;
+    max-width: 100%;
+}
+
+main .solutions-container .solutions .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+main .solutions-container .solutions .content .text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+main .solutions-container .solutions .content h2 {
+    text-align: left;
+}
+
+main .content .description {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-weight: 400;
+    color: #627382;
+}
+
+main .solutions-container .solutions .content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+main .solutions-container .solutions .content ul li p {
+    color: #001931;
+    line-height: 1rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
